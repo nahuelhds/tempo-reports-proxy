@@ -1,14 +1,14 @@
 # README #
 
 This project works as a proxy in to order to be able to access to the Tempo Timesheets reports.
-This main goal was [to be able to do this](http://blog.tempo.io/2012/creating-excel-reports-using-high-level-permissions-api-export/) from Google Spreadsheet within our own JIRA & Tempo server.
+This main goal was [to be able to do this](http://blog.tempo.io/2012/creating-excel-reports-using-high-level-permissions-api-export/) from within Google Spreadsheet.
 
 ## Installation
 
 In any public accesible folder in your server, install the project and initialize it:
 
 ```sh
-git clone https://nsotelo@bitbucket.org/cristalmedia/reporte.git ./myReports
+git clone https://github.com/nahuelhds/tempo-reports-proxy ./myReports
 cd myReports
 composer install
 ```
