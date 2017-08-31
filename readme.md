@@ -8,7 +8,7 @@ This main goal was [to be able to do this](http://blog.tempo.io/2012/creating-ex
 In any public accesible folder in your server, install the project and initialize it:
 
 ```sh
-git clone https://github.com/nahuelhds/tempo-reports-proxy ./myReports
+git clone https://github.com/nahuelhds/tempo-reports-proxy.git ./myReports
 cd myReports
 composer install
 ```
