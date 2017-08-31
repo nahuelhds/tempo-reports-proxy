@@ -19,6 +19,17 @@ The file doesn't care about who's accessing it, so I recommend to implement a mi
 
 ## Usage
 
+### Configuring your credentials
+
+1. You need to enable your server IP on Tempo Access Control
+1. Obtain your Tempo Api Key (security token).
+1. Then, define your server url (usually something like "http(s)://yourserver.yourdomain/plugins/servlet/tempo-getWorklog")
+
+All that is explained in [this Tempo post](http://blog.tempo.io/2012/creating-excel-reports-using-high-level-permissions-api-export/).
+Once you get your server URI and your Tempo Api Token you need to replace them in the `./index.php` file, lines 4 and 5.
+
+### Accessing the data from outside
+
 From an external program -like Google SpreadSheet- use this URL as a data source
 Desde un programa externo, apuntar a la URL:
 
