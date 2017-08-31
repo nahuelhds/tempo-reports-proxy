@@ -23,7 +23,7 @@ The file doesn't care about who's accessing it, so I recommend to implement a mi
 
 1. You need to enable your server IP on Tempo Access Control
 1. Obtain your Tempo Api Key (security token).
-1. Then, define your server url (usually something like "http(s)://yourserver.yourdomain/plugins/servlet/tempo-getWorklog")
+1. Then, define your server url (usually something like `http(s)://yourserver.yourdomain/plugins/servlet/tempo-getWorklog`)
 
 All that is explained in [this Tempo post](http://blog.tempo.io/2012/creating-excel-reports-using-high-level-permissions-api-export/).
 Once you get your server URI and your Tempo Api Token you need to replace them in the `./index.php` file, lines 4 and 5.
